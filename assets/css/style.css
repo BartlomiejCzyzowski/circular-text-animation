@@ -1,0 +1,27 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #FF7F5C;
+        }
+        #circular{
+            font-size: 2rem;
+            font-family: monospace;
+            text-transform: uppercase;
+            animation: rotation 16s linear infinite;
+            color: #ffffff;
+        }
+        @keyframes rotation{
+            from { 
+                transform: rotate(0deg); 
+            } to { 
+                transform: rotate(360deg); 
+            }
+        }
